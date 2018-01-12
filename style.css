@@ -1,0 +1,59 @@
+body {
+    color: black;
+    background-image: url("img/background.jpg");
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+address {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid darkgray;
+}
+
+#p00 {
+    color: brown;
+}
+
+.error {
+    color: red;
+}
+
+a:link {
+    color: chocolate;
+}
+
+a:visited {
+    color: mediumseagreen;
+}
+
+a:hover {
+    color: rgb(102, 65, 145);
+}
+
+a:active {
+    color: yellow;
+}
+
+table {
+    border-spacing: 5px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+table#card {
+    background-color: aqua;
+}
+
+table#card tr:nth-child(even) {
+    background-color: blueviolet;
+}
