@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="descripcion de la web">
+    <meta name="keywords" content="palabras claves para los buscadores">
+    <meta name="author" content="Gianti Cristian">
+    <!-- <meta http-equiv="refresh" content="2"> -->
+
+    
     <link rel="stylesheet" href="style.css">
     <title>Página</title>
 </head>
@@ -50,7 +56,7 @@
     <picture>
         <source media="(min.width: 800px)" srcset="img/dog-big.jpg">
         <source media="(min.width: 400px)" srcset="img/dog-small.jpg">
-        <img src="img/dog-tiny.jpg" alt="Dog" style="width:auto;">
+        <img src="img/dog-tiny.jpg" id="dog" alt="Dog" style="width:auto;">
     </picture>
 
     <table style="width:50%">
@@ -74,86 +80,188 @@
           <td>94</td>
           <td>100</td>
         </tr>
-      </table> 
+    </table> 
 
-        <hr>
+    <hr>
 
-        <table id="card" style="width:20%">
-            <tr>
-                <th>Name:</th>
-                <td>Bill Gates</td>
-            </tr>
-            <tr>
+    <table id="card" style="width:20%">
+        <tr>
+            <th>Name:</th>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
             <th rowspan="2">Telephone:</th>
-                <td>55577854</td>
-            </tr>
-            <tr>
-                <td>55577855</td>
-            </tr>
-        </table> 
+            <td>55577854</td>
+        </tr>
+        <tr>
+            <td>55577855</td>
+        </tr>
+    </table> 
 
-        <hr>
+    <hr>
       
-        <ul style="list-style-type:disc">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ul> 
+    <ul style="list-style-type:disc">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul> 
 
-        <ul style="list-style-type:circle">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ul> 
-        <ul style="list-style-type:square">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ul> 
-        <ul style="list-style-type:none">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ul> 
+    <ul style="list-style-type:circle">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul> 
+    <ul style="list-style-type:square">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul> 
+    <ul style="list-style-type:none">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul> 
 
-        <hr>
+    <hr>
 
-        <ol>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol> 
-        <ol type="1">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol> 
-        <ol type="A">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol> 
-        <ol type="a">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol> 
-        <ol type="I">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol> 
-        <ol type="i">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol> 
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol> 
+    <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol> 
+    <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol> 
+    <ol type="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol> 
+    <ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol> 
+    <ol type="i">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol> 
 
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl> 
 
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul> 
 
+    <ul class="horizontal">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
 
+    <hr>
 
+    <div>Hello</div>
+    <div>World</div>
 
+    <span>Hello</span>
+    <span>World</span>
+
+    <div style="background-color:black; color:white; padding:20px;">
+        <h2>Lodon</h2>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    </div>
+
+    <h1>My <span style="color:red">Important</span> Heading</h1>
+
+    <hr>
+
+    <h2 class="city main">London</h2>
+    <p>Lodon is the capital of England.</p>
+
+    <h2 class="city">Paris</h2>
+    <p>Lodon is the capital of France.</p>
+
+    <h2 class="city">Tokyo</h2>
+    <p>Lodon is the capital of Japan.</p>
+
+    <button onclick="hideCities()">Esconder ciudades</button>
+    <button onclick="showCities()">Mostrar ciudades</button>
+
+    <script>
+        function hideCities() {
+            var x = document.getElementsByClassName("city");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+
+        function showCities() {
+            var x = document.getElementsByClassName("city");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "inline";
+            }
+        }
+    </script>
+
+    <hr>
+
+    <iframe src="about.html" name="iframe-00"></iframe>
+    <iframe src="about.html" name="iframe-01"></iframe>
+    <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p> 
+
+    <hr>
+
+    <p id="demo">Hola HTML</p>
+    <button onclick="changeText()">Haga click</button>
+
+    <script>
+        function changeText () {
+            document.getElementById("demo").innerHTML = "Hello JavaScript!";
+            document.getElementById("demo").style.fontSize = "25px";
+            document.getElementById("demo").style.color = "red";
+            document.getElementById("demo").style.backgroundColor = "yellow";
+            document.getElementById("dog").src = "img/dog-small.jpg";
+        }
+    </script>
+
+    <hr>
+
+    <img src="img/dog-small.jpg" alt="dog big" style="max-width:100%;height:auto;">
+
+    <hr>
+
+    <picture>
+        <source srset="img/dog-small.jpg" media="(max-width: 450px)">
+        <source srset="img/dog-big.jpg" media="(max-width: 1000px)">
+        <source srset="img/dog-tiny.jpg">
+        <img src="img/dog-tiny.jpg" alt="dog">
+    </picture>
+
+    <h1 style="font-size:5vw">Hello World</h1>
+
+    https://www.w3schools.com/html/html_responsive.asp
 
 
 

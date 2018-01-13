@@ -57,3 +57,29 @@ table#card {
 table#card tr:nth-child(even) {
     background-color: blueviolet;
 }
+
+.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.horizontal li {
+    float: left;
+}
+
+.horizontal li a:hover {
+    background-color: #111111;
+}
+
+.city {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+
+.main {
+    color: red;
+}
